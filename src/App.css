@@ -1,0 +1,44 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.user-slider{
+  border: 1px solid white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 400px;
+  width: 300px;
+  align-items: center;
+}
+
+.user-Name{
+  background: -webkit-linear-gradient(45deg,hsl(113,96%,81%) 0%,hsl(188,90%,51%) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family:;
+}
+  
+.user-Post-1{
+  margin: 0;
+  font-weight: 500;
+}
+
+.user-Name{
+  margin-bottom: 0;
+  font-size: 1.5rem;
+}
+
+.user-Post-2{
+  margin: 0;
+  font-weight: 400;
+}
+
+.arrow-img{
+  height: 40px;
+  width: 100px;
+}

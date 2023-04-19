@@ -1,0 +1,16 @@
+.user-slider{
+    border: 1px solid white;
+    height: 400px;
+    border: 1px solid white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .user-Name{
+    background: -webkit-linear-gradient(45deg,hsl(113,96%,81%) 0%,hsl(188,90%,51%) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
