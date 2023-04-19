@@ -46,3 +46,7 @@
   position: absolute;
   bottom: 0;
 }
+
+.user-Email a{
+  text-decoration: underline;
+}
