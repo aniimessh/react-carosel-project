@@ -1,6 +1,6 @@
 export default [
     {
-        userName: "Dr. Bhupesh Kumar Dewangan",
+        userName: "Dr. Bhupesh Kr. Dewangan",
         userPost: "Convener OTCON",
         userPost2: "Associate Professor, CSE",
         userEmail: "bhupesh.dewangan@opju.ac.in",
