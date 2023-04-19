@@ -5,48 +5,54 @@
   text-align: center;
 }
 
-.user-slider{
-  border: 1px solid white;
-  border-radius: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: fit-content;
-  aspect-ratio: 1/1;
-  width: 300px;
-  align-items: center;
-  position: relative;
-}
-
-.user-Name{
-  background: -webkit-linear-gradient(45deg,hsl(113,96%,81%) 0%,hsl(188,90%,51%) 100%);
+.user-Name {
+  background: -webkit-linear-gradient(45deg, hsl(113, 96%, 81%) 0%, hsl(188, 90%, 51%) 100%);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: 'Roboto', sans-serif;
 }
-  
-.user-Post-1{
+
+.user-Post-1 {
   margin: 0;
   font-weight: 500;
 }
 
-.user-Name{
+.user-Name {
   margin-bottom: 0;
   font-size: 1.5rem;
 }
 
-.user-Post-2{
+.user-Post-2 {
   margin: 0;
   font-weight: 400;
 }
 
-.arrow-img{
+.arrow-img {
   height: 40px;
   width: 100px;
   position: absolute;
   bottom: 0;
+  transform: translateX(-50%);
 }
 
-.user-Email a{
+.user-Email a {
   text-decoration: underline;
+}
+
+.user-slider{
+  border: 1px solid white;
+  width: fit-content;
+  border-radius: 10px;
+  height: 300px;
+  padding: 20px;
+}
+
+.swiper-slide{
+    flex-shrink: 0;
+    width: 300px;
+    height: 200px;
+    position: relative;
+    transition-property: transform;
+    display: block;
 }
