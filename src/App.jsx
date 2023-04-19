@@ -4,7 +4,6 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 // import { Pagination } from "swiper";
 import UserDeatils from './constant/UserDeatils';
-import "swiper/css/pagination";
 import "swiper/css/effect-coverflow";
 import { EffectCoverflow, Pagination } from "swiper";
 

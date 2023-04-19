@@ -28,6 +28,15 @@
   font-weight: 400;
 }
 
+.user-slider{
+  border: 1px solid white;
+  width: 300px;
+  border-radius: 10px;
+  height: 400px;
+  padding: 20px;
+  position: relative;
+}
+
 .arrow-img {
   height: 40px;
   width: 100px;
@@ -40,19 +49,12 @@
   text-decoration: underline;
 }
 
-.user-slider{
-  border: 1px solid white;
-  width: fit-content;
-  border-radius: 10px;
-  height: 300px;
-  padding: 20px;
-}
 
-.swiper-slide{
-    flex-shrink: 0;
-    width: 300px;
-    height: 200px;
-    position: relative;
-    transition-property: transform;
-    display: block;
+.swiper-slide {
+  flex-shrink: 0;
+  width: 500px !important;
+  height: 100%;
+  position: relative;
+  transition-property: transform;
+  display: block;
 }
