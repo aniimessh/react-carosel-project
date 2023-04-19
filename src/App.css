@@ -20,7 +20,7 @@
 
 .user-Name{
   background: -webkit-linear-gradient(45deg,hsl(113,96%,81%) 0%,hsl(188,90%,51%) 100%);
-  background-clip: text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: 'Roboto', sans-serif;
 }
